@@ -96,7 +96,7 @@ function Hero() {
             
             <a
               href="/cv"
-              className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-700 transition hover:border-blue-600 hover:text-blue-600"
+              className="rounded-xl border border-slate-300 bg-white px-6 py-3 text-center font-semibold text-slate-700 transition hover:border-blue-600 hover:text-blue-600"
             >
               Voir mon CV
             </a>
@@ -106,7 +106,7 @@ function Hero() {
               download
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl border border-slate-700 px-6 py-3 font-semibold text-slate-300 transition hover:bg-slate-900 hover:text-white"
+              className="rounded-xl border border-slate-700 px-6 py-3 text-center font-semibold text-slate-300 transition hover:bg-slate-900 hover:text-white"
             >
               Télécharger PDF
             </a>
