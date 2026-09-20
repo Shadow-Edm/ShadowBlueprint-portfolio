@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     width="512"
+     height="512"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">ShadowBlueprint</title>
+  <desc id="desc">Logo géométrique ShadowBlueprint</desc>
+
+  <!-- Fond -->
+  <rect
+    width="512"
+    height="512"
+    rx="112"
+    fill="#ffffff"
+  />
+
+  <!-- Effet de lueur diffuse -->
+  <rect
+    x="116"
+    y="116"
+    width="280"
+    height="280"
+    rx="24"
+    fill="#00D2FF"
+    opacity="0.15"
+    filter="url(#blur)"
+  />
+
+  <!-- Cadre principal -->
+  <rect
+    x="116"
+    y="116"
+    width="280"
+    height="280"
+    rx="24"
+    fill="none"
+    stroke="#004B87"
+    stroke-width="12"
+    stroke-linejoin="round"
+  />
+
+  <!-- Ligne horizontale gauche -->
+  <path
+    d="M 116 256 L 216 256"
+    fill="none"
+    stroke="#004B87"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Ligne verticale haute -->
+  <path
+    d="M 256 116 L 256 216"
+    fill="none"
+    stroke="#004B87"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Diagonale principale -->
+  <path
+    d="M 150 362 L 362 150"
+    fill="none"
+    stroke="#004B87"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+
+  <!-- Ligne de contournement -->
+  <path
+    d="M 216 150 L 320 150 L 362 192 L 362 296"
+    fill="none"
+    stroke="#004B87"
+    stroke-width="6"
+    stroke-linejoin="round"
+  />
+
+  <!-- Nœuds -->
+  <circle
+    cx="256"
+    cy="150"
+    r="14"
+    fill="#ffffff"
+    stroke="#004B87"
+    stroke-width="6"
+  />
+
+  <circle
+    cx="150"
+    cy="256"
+    r="14"
+    fill="#ffffff"
+    stroke="#004B87"
+    stroke-width="6"
+  />
+
+  <circle
+    cx="362"
+    cy="150"
+    r="18"
+    fill="#ffffff"
+    stroke="#004B87"
+    stroke-width="8"
+  />
+
+  <circle
+    cx="150"
+    cy="362"
+    r="18"
+    fill="#ffffff"
+    stroke="#004B87"
+    stroke-width="8"
+  />
+
+  <!-- Carré central -->
+  <rect
+    x="216"
+    y="216"
+    width="80"
+    height="80"
+    rx="12"
+    fill="#00A3FF"
+  />
+
+  <!-- Effet de pliure -->
+  <path
+    d="M 356 396 C 356 396 366 356 396 356 L 396 396 Z"
+    fill="#D2E4F2"
+  />
+
+  <path
+    d="M 356 396 L 396 356"
+    fill="none"
+    stroke="#004B87"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+
+  <!-- Filtre de lueur -->
+  <defs>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20" />
+    </filter>
+  </defs>
+
+</svg>
